@@ -3,6 +3,7 @@
 ## Exercise: Level 1
 
 1. Check the python version you are using
+
    ![python-version](./image/image1.png)
 
 2. Open python interactive shell and do the following operations. The operands are 3 and 4.
