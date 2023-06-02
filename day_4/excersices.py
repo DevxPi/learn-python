@@ -32,3 +32,6 @@ words = "Python For Everyone"
 coding = "Coding For All"
 print("".join(w[0] for w in words.split(' ')))
 print("".join(w[0] for w in coding.split(' ')))
+
+print(coding.find('C'))
+print(coding.find('F'))
