@@ -24,9 +24,25 @@ mixed_data_types = [
 print(mixed_data_types)
 
 it_companies = [
-    "FACEBOOK", "GOOGLE", "MICROSOFT", "APPLE", "IBM", "ORACLE", "AMAZON"
+    "Facebook", "GOOGLE", "MICROSOFT", "APPLE", "IBM", "ORACLE", "AMAZON"
 ]
 print(it_companies)
 print(len(it_companies))
 print(it_companies[0])
 print(it_companies[len(it_companies)-1])
+
+it_companies[0] = "yahoo"
+print(it_companies)
+
+it_companies.append("REDHAT")
+print(it_companies)
+print(it_companies[0].capitalize())
+
+print("#; ".join(it_companies))
+
+print("GOOGLE" in it_companies)
+it_companies.sort()
+print(it_companies)
+
+it_companies.reverse()
+print(it_companies)
